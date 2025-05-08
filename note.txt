@@ -1,0 +1,13 @@
+các câu lệnh GIt:
+repository:nơi chứa toàn bộ mã nguồn(kho chứa của git),nó có 2 loại repository
+1.local repo :kho chứa trên máy cảu mình
+2.remote repo:kho online
+file trong máy  | vùng nhớ tạm |local repo | remote repo
+ change                               index.html
+                                note.txt
+
+git init: tạo repository ở local
+git add .hoặc git add <tên file> : đẩy tất cả cá file vào trong 1 vùng nhớ 
+git commit -m:đẩy từ vùng nhớ tạm thời vào local repo và đánh dấu 1 mốc lịch sự tại đây
+git remote... :kết nối local vs remote repo
+git push origin master : đẩy lên github
