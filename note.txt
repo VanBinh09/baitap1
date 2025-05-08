@@ -11,3 +11,7 @@ git add .hoặc git add <tên file> : đẩy tất cả cá file vào trong 1 v�
 git commit -m:đẩy từ vùng nhớ tạm thời vào local repo và đánh dấu 1 mốc lịch sự tại đây
 git remote... :kết nối local vs remote repo
 git push origin master : đẩy lên github
+git pull :kéo dữ liệu mới nhất về dự án
+git clone <url>:up dự án về máy của mình
+git push -u origin main :đẩy lên github của máy
+
